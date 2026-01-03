@@ -6,8 +6,9 @@ public class Test {
         try {
             demo();
         } catch (Exception e) {
-            e.printStackTrace();
+            // e.printStackTrace();
         }
+        System.out.println("After Exception");
     }
 
     public static void demo() throws Exception {
